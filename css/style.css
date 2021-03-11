@@ -1,0 +1,42 @@
+/* Das Aussehen wird hier festgelegt, wie der Hintergrund, die Höhe des Headers, die Breite der Images, was passiert wenn man wo darüber hovert etc. */
+body{
+    background-image: url('../img/bb-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header img{
+    height: 100px;
+}
+
+.gif-spinner img{
+    width: 40px;
+}
+
+.img{
+    width: 100%;
+    height: 300px;
+}
+
+.info-display{
+    position: absolute;
+    display: none;
+    width: 90%;
+    height: 100%;
+    top: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.img-info:hover > .info-display{
+    display: block;
+}
+
+hr{
+    background-color: white;
+}
+
+span{
+    font-weight: lighter;
+}

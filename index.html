@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title wird festgelegt -->
+    <title>Breaking Bad API</title>
+    <!-- Auf "BootstrapCDN" wird verlinkt, also eine frei zugängliche Vorlage, welche durch den Link bereitgestellt wird.  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Auf unser style.css im Ordner css wird verlinkt, ansonsten kann man nicht auf das css zugreifen. -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- Eine Klasse container wird erstellt -->
+    <div class="container">
+        <!-- Alles was im Header ist wird zentriert, daher auch das Logo -->
+        <header class="text-center mt-5">
+            <img src="img/bb-logo.png">
+        </header>
+        <!-- Hier in den unteren Zeilen wird die Suchzeile definiert -->
+        <div class="row mt-4">
+            <div class="col-md-6 mx-auto">
+                <input type="text" id="inp-search" class="form-control" placeholder="Search Characters...">
+            </div>
+        </div>
+
+        <section class="mt-5">
+            <div class="row" id="output">
+
+            </div>
+        </section>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
