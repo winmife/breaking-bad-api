@@ -1,23 +1,23 @@
-/* Das Aussehen wird hier festgelegt, wie der Hintergrund, die Höhe des Headers, die Breite der Images, was passiert wenn man wo darüber hovert etc. */
+/* Für den ganzen Body wird hier das Hintergrundbild festgelegt */
 body{
     background-image: url('../img/bb-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*  Höhe des Header images ist auf 100px*/
 header img{
     height: 100px;
 }
-
+/* Das Ladezeichen hat eine Breite von 40px */
 .gif-spinner img{
     width: 40px;
 }
-
+/* Die Images der Charaktere außerhalb des Header dürfen 100% ihrer width haben und eine Höhe von 300px */
 .img{
     width: 100%;
     height: 300px;
 }
-
+/* Aussehen, Verhalten und Aufbau des Info-Displays, also wo alles drinsteht */    
 .info-display{
     position: absolute;
     display: none;
@@ -29,14 +29,16 @@ header img{
     color: white;
 }
 
+/*  Sorgt für das richtige Verhalten beim Hovern*/
 .img-info:hover > .info-display{
     display: block;
 }
-
+/* Setzt die Horizontale Linie auf die Farbe weiss */
 hr{
     background-color: white;
 }
 
+/* Alles was im Span-tag ist hat eine "leichtere" Schrift */
 span{
     font-weight: lighter;
 }
